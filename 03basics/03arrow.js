@@ -25,3 +25,11 @@ foo()
 console.log(typeof(NaN));
 
 console.log(1 + "1" - 1);
+
+// const addtwo = (a, b) => {
+//     return a + b
+// }
+
+// console.log(addtwo(5,5));
+
+
