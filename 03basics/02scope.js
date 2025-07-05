@@ -31,14 +31,16 @@ function one() {
 
 // one()
 
-if(true) {
-    const username = 'parth'
-    if (username === 'parth') {
-        const website = 'youtube'
-        console.log(username + website);
-    }
-    console.log(website);
+// if(true) {
+//     const username = 'parth'
+//     if (username === 'parth') {
+//         const website = 'youtube'
+//         console.log(username + website);
+//     }
+//     console.log(website);
     
-}
-console.log(username);
+// }
+// console.log(username);
+
+Promise.resolve(5).then(console.log);
 
