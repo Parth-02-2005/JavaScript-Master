@@ -22,4 +22,9 @@ let isLoggedIn = true // boolean
 console.log(typeof null); // type object
 console.log(typeof undefined); // type undefined
 
+let a = [1, 2, 3];
+let b = [...a];
+b[0] = 100;
+console.log(b[0]);
+
 
