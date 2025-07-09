@@ -59,5 +59,35 @@ console.log(Object.entries(tinder)) // array into array
 
 console.log(Object.hasOwn(tinder, 'ravan'));
 
+const course = {
+    coursename: 'js in hindi',
+    price: 999,
+    courseInstructor: 'parth gandhi'
+}
+
+const { price, coursename: name } = course
+console.log(price, name);
+
+// const navbar = ({company}) => {
+//     console.log(company);
+    
+// }
+
+// navbar(company = 'parth')
+
+
+//JSON -> in json key are written in string and values are also written in string.
+// {
+//     'name': 'parth gandhi',
+//     'courseName': 'js in hindi',
+//     'price': 'free'
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
 
 
