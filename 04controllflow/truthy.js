@@ -39,4 +39,6 @@ const value = 100
 
 value < 40 ? console.log('value is smaller than 40') : console.log('value is greater than 40');
 
+console.log(null == undefined);
+
 

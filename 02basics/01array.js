@@ -19,14 +19,17 @@ console.log(typeof newArray);
 // slice 
 console.log('A', myArr);
 const newArray1 = myArr.slice(0,7); // returns new array of give indexs
-console.log('B', myArr);
-console.log(newArray1);
+// console.log('B', myArr);
+// console.log(newArray1);
 
 // splice 
 const newArray2 = myArr.splice(0,7) // original array is manipulated.
-console.log('C', myArr);
+// console.log('C', myArr);
 
-console.log(newArray2);
+// console.log(newArray2);
+
+
+
 
 
 
